@@ -39,7 +39,6 @@ print(search([1, 3, 5, 7, 9], 11))
 print(search([1, 5, 7, 11, 25, 100, 200, 350], 100))
 
 
-
 #
 # #4
 # Convert Minutes into Seconds (mintosec.js)
