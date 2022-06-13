@@ -19,7 +19,7 @@ print(get_first_value([7,9,8]))
 def addition(num):
 	return num+1
 
-print("2. return the next number from interger passed")
+print("2. return the next number from integer passed")
 print(addition(10))
 print(addition(999))
 
