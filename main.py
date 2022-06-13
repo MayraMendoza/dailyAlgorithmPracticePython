@@ -3,6 +3,14 @@
 # #1
 # Return the First Element in an Array (getfirstelement.js)
 # https://edabit.com/challenge/QaApgtePE6QrCZ64o
+def get_first_value(number_list):
+    return number_list[0]
+
+## test
+print ("1.Return First Element")
+
+print(get_first_value([1, 2, 3]))
+print(get_first_value([7,9,8]))
 #
 # #2
 # Return the Next Number from the Integer Passed (nextnumber.js)
