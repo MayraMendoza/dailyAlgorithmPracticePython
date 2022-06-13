@@ -27,6 +27,19 @@ print(addition(999))
 # #3
 # Find the Index (findtheindex.js)
 # https://edabit.com/challenge/z6Pxiw289JtaE2ndL
+
+def search(lst, item):
+    if item in lst:
+        return lst.index(item)
+    else:
+        return -1
+
+print("3.find the index")
+print(search([1, 3, 5, 7, 9], 11))
+print(search([1, 5, 7, 11, 25, 100, 200, 350], 100))
+
+
+
 #
 # #4
 # Convert Minutes into Seconds (mintosec.js)
