@@ -15,6 +15,14 @@ print(get_first_value([7,9,8]))
 # #2
 # Return the Next Number from the Integer Passed (nextnumber.js)
 # https://edabit.com/challenge/NAQhEoxbofPidLxm9
+
+def addition(num):
+	return num+1
+
+print("2. return the next number from interger passed")
+print(addition(10))
+print(addition(999))
+
 #
 # #3
 # Find the Index (findtheindex.js)
